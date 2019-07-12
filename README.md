@@ -18,3 +18,7 @@ module.  Open the debug console of the browser to see the results of the calls
 to the `parity` function in libswiftnav.
 
 The source of the web page is in `index.html` ([source](./index.html)).
+
+The [build_lsn.bash](./build_lsn.bash) does the work of compiling the library for 2 different WASM environments.
+The first is [Emscripten](https://emscripten.org/) which allows the code to run in the browser.  And the second
+is [WASI](https://wasi.dev/) via its [SDK](https://github.com/CraneStation/wasi-sdk).
